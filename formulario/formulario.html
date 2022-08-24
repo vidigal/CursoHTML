@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Formulários em HTML</title>
+</head>
+
+<body>
+    <h1>Formulários em HTML</h1>
+    <hr>
+    <h2>Primeiro formulário básico</h2>
+    <form action="../index.html">
+        <label for="ipt-nome">Nome:</label>
+        <input type="text" id="ipt-nome" name="ipt-nome"><br>
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+    <h2>Formulários em HTML - Tipos mais comuns de input</h2>
+    <form action="../index.html">
+        <label for="ipt-nome">Nome:</label>
+        <input type="text" id="ipt-nome" name="ipt-nome">
+        <br>
+        <label for="ipt-ativo">Ativo:</label>
+        <input type="checkbox" id="ipt-ativo" name="ipt-ativo">
+        <br>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" id="ipt-sexo-masculino" name="ipt-sexo">
+            <label for="ipt-sexo-masculino">Masculino</label><br>
+            <input type="radio" id="ipt-sexo-feminino" name="ipt-sexo">
+            <label for="ipt-sexo-feminino">Feminino</label><br>
+            <input type="radio" id="ipt-sexo-outros" name="ipt-sexo">
+            <label for="ipt-sexo-outros">Outros</label>
+        </fieldset>
+        <br>
+        <label for="ipt-senha">Senha:</label>
+        <input type="password" id="ipt-senha" name="ipt-senha">
+        <br><br>
+        <label for="ipt-arquivo">Anexar arquivo:</label>
+        <input type="file" id="ipt-arquivo" name="ipt-arquivo">
+        <br><br>
+
+        <label for="ipt-arquivo">Anexar arquivo:</label>
+        <input type="file" id="ipt-arquivo" name="ipt-arquivo">
+
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr>
+    <h1>Outros tipos de componentes</h1>
+    <ul>
+        <li>textarea</li>
+        <li>select</li>
+    </ul>
+
+    <hr>
+
+    <h1>Outros tipos de input</h1>
+    <ul>
+        <li>color</li>
+        <li>date</li>
+        <li>email</li>
+        <li>hidden</li>
+        <li>image</li>
+        <li>number</li>
+        <li>range</li>
+        <li>url</li>
+    </ul>
+
+    <hr>
+
+    <h1>Referências externas</h1>
+    <a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">Tipos de input w3schools</a>
+</body>
+
+</html>
